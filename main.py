@@ -1,6 +1,7 @@
 redo = True
+    
+print("Hello Chonkus!")
 while redo == True:
-    print("Hello Chonkus!")
     eep = input("is the chonkus eepy y/n?  ")
     i=0
     if eep == "y":
@@ -8,7 +9,8 @@ while redo == True:
     elif eep =="n":
         for i in range(3):
             print("EEPY TIME!!")
+            redo = False
     else:
             
             print("I said y/n >:(")
-            redo == True
+            redo = True
